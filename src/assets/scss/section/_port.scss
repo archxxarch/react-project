@@ -1,0 +1,74 @@
+#port {
+    width: 100%;
+    overflow: hidden;
+}
+
+.port__inner {
+    padding: 16px;
+}
+
+.port__title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 70%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--white200);
+    border-bottom: 0.4vw solid var(--white200);
+    margin-bottom: 100px;
+}
+
+.port__title em {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.port__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7000px;
+}
+
+.port__item {
+    width: 500px;
+    height: 70vh;
+    background-color: var(--white200);
+    margin-right: 20px;
+}
+
+.port__item a img {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+}
+
+.port__item .num {
+    font-weight: 800;
+    font-size: 2rem;
+    padding-left: 26px;
+    font-family: var(--mainKor-font);
+
+}
+
+.port__item .title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #211d48;
+    font-family: var(--mainKor-font);
+
+}
+
+.port__item .desc {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-family: var(--mainKor-font);
+
+}
