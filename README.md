@@ -8,7 +8,8 @@
 ## 작업 순서
 1. 리액트 설치
 2. git 에 업로드
-3. [lenis 사이트] (https://github.com/studio-freight/lenis)
+3. lenis 사이트 (https://github.com/studio-freight/lenis)
+4. firebase 에 업로드 (https://react-project-a5f3c.web.app/)
 
 ## 설치
 1. react 설치 `npx create-react-app 프로젝트 이름`
